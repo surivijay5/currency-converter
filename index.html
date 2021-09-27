@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Converter</title>
+    <script src="script.js" defer type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        Exchange Rate Converter
+    </header>
+    <section class="input-container">
+        <select name="base-currency" id="base-currency"></select>
+        <i class="fas fa-exchange-alt" id="swap"></i>
+        <select name="to-currency" id="to-currency"></select>
+    </section>
+    <section class="output-container">
+        <input type="number" name="base-value" id="base-value">
+        <input type="number" name="result-value" id="result-value" disabled>
+    </section>
+</body>
+</html>
