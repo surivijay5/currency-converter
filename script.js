@@ -22,7 +22,6 @@ async function calculateConversion(){
     const currencyConversionMapping = await fetchFromAPI(baseCurrencyVal)
 
     const result = currencyConversionMapping[toCurrencyVal] * baseValue
-    console.log(result)
     resultVal.value = result
     
 }

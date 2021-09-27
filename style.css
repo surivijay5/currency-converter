@@ -4,15 +4,51 @@
 
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: whitesmoke;
 }
 
 section{
     margin: 10px
+}
+
+select{
+    padding: 8px;
+    cursor: pointer;
+}
+
+input{
+    width: 70px;
+    padding: 5px;
+    margin: 5px
+}
+
+i{
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+select:focus,select:active{
+    outline: none;
+}
+
+.header{
+    font-size: 1.5rem;
+    color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.output-container, .input-container{
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
 }
